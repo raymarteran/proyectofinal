@@ -1,0 +1,30 @@
+/* Paleta de Colores: #150140 #0D0126 #01000D #03A696 #04594A */
+
+
+body.modoOscuro{
+    background-color: #0D0126;
+    color: #f2f2f2;
+}
+.modoOscuro header {
+    background-color: #01000D;
+}
+.modoOscuro .menu {
+    background-color: #120135;
+}
+
+.modoOscuro .footer {
+    background: linear-gradient(to right, #01000D, #26075d, #01000D);
+    background-color: #01000D;
+}
+
+.modoOscuro .contact-form{
+    background-color: #120135;
+}
+
+.modoOscuro .info-container{
+    background-color: #120135;
+}
+.modoOscuro .mensaje {
+    color: #f2f2f2;
+}
+
