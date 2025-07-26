@@ -1,15 +1,9 @@
-# Proyecto: TusPelis
-
-<br><h4>
-Estudiantes de la Universidad Valle del Momboy
+<h1>
+Universidad Valle del Momboy
 Facultad de Ingeniería
-Carrera Ingeniería en Computación
+Ingeniería en Computación
 Asignatura Frontend I
-</h4>
+</h1>
 <br>
-<h3>Raymar Teran
-</h3>
-<ul>
-</ul>
-
-<h2>Descripción</h2>
+<h3>Raymar Teran</h3>
+<h4>C.I. 25.604.593</h4
