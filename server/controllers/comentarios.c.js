@@ -16,12 +16,12 @@ class comentariosControllers {
     }
 
     async agregar(req, res, next) {  
-        const {nombre, descripcion, iddat, calificacion} = req.body;
+        const {nombre, email, telefono, fecha, pregunta} = req.body;
         try {
-            if ( !nombre || !descripcion || !calificacion ) {
+            if ( !nombre || !email || !telefono || !fecha || !pregunta ) {
                 throw("Ingresa los datos correctamente");
             };
-            const campos = {nombre, descripcion, iddat, calificacion};
+            const campos = {nombre, email, telefono, fecha, pregunta};
             console.log('agregar:', campos)
             await comentariosModel.create(campos);
             res.json({"agregado": "se agregado"}).status('200');  

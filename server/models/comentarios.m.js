@@ -1,18 +1,21 @@
 const mongoose = require('mongoose'); //requerimos libreria de mongo
 
-const comentarioSchema = new mongoose.Schema( //en mongo el modelo es establecer el esquema de los datos que vamos a recibir
+const comentarioSchema = new mongoose.Schema(
     {
         nombre: {
-            type: String  //importante indicar el tipo de dato
-        },
-        descripcion: {
             type: String
         },
-        iddat: {
-            type: Number
+        email: {
+            type: String
         },
-        calificacion: {
-            type: Number
+        telefono: {
+            type: String
+        },
+        fecha: {
+            type: Date
+        },
+        pregunta: {
+            type: String
         }
     },
     {
@@ -20,4 +23,5 @@ const comentarioSchema = new mongoose.Schema( //en mongo el modelo es establecer
     }
 )
 
-module.exports = mongoose.model('comentario', comentarioSchema, 'comentario') //primer argumento: nombre del modelo; segundo argumento: esquema; tercer argumento: nombre de la collection
+module.exports = mongoose.model('comentario', comentarioSchema, 'comentario')
+

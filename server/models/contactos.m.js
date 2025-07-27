@@ -14,9 +14,6 @@ const contactoSchema = new mongoose.Schema(
         pregunta: {
             type: String
         },
-        importancia: {
-            type: String
-        },
         fecha: {
             type: Date
         }
