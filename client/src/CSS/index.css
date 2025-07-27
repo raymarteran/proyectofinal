@@ -22,7 +22,7 @@ h3:hover {
 
 /*ENCABEZADO*/
 header {
-  background-color: #26075d;
+  background-color: #0C71C3;
   color: #fff;
 }
 .header-principal {
@@ -47,7 +47,7 @@ header {
 }
 .header-principal button:hover, 
 .menu button:hover{
-  background-color: #454e8f;
+  background-color: #0C71C3;
 }
 .header-principal img{
   width: 4.5vh;
@@ -63,7 +63,7 @@ header {
   border-radius: 30px;
   padding: 2%;
   margin: 2%;
-  background-color: #454e8f;
+  background-color: #0C71C3;
 }
 .GenerosLista{
   margin-left: 1rem;
@@ -81,7 +81,7 @@ header {
   align-content: center;
   align-items: center;
   justify-content: flex-end;
-  min-width: 180px;
+  min-width: 20rem;
   min-height: 300px;
   background-position: center;
   background-size: cover;
@@ -173,16 +173,17 @@ header {
 }
 .estrellasContainer{
   padding: 0.5vh 0.5vw;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #0C71C3;
   position: absolute;
   top: 0;
 }
 .estrellas{
-  color: gold;
+  color: black;
+  font-size: 24px;
 }
 /* MENU */
 .menu {
-  background-color: #350a80;
+  background-color: #0C71C3;
   box-shadow: 3px 0 10px 0 #000000;
   border-right: 1px solid #000000;
 
@@ -236,7 +237,7 @@ header {
 
   border: 2px solid #450da6fc;
   border-radius: 20px;
-  background-color: #450da6cb;
+  background-color: #0056b3;
 
   padding: 0 3vh;
   color: #f2f2f2;
@@ -254,8 +255,8 @@ header {
   
   margin: 6vh 4vh;
 }
-.busqueda-peli {
-  background-color: #454e8f;
+.busqueda-dat {
+  background-color: #0C71C3;
   padding: 4vh 3vh;
 
   display: flex;
@@ -273,16 +274,16 @@ header {
   width: 25vh;
   height: 40vh;
 }
-.busqueda-peli h3 {
+.busqueda-dat h3 {
   text-align: center;
   font-size: 3vh;
   margin: 15px 0;
 }
-.busqueda-peli div {
+.busqueda-dat div {
   text-align: center;
   font-size: 2.5vh;
 }
-.busqueda-peli div p {
+.busqueda-dat div p {
   margin-bottom: 10px;
 }
 .busqueda-boton {
@@ -292,10 +293,10 @@ header {
   border-radius: 10px; 
   border: none;
   color: #f2f2f2;
-  background-color: #26075d;
+  background-color: #0C71C3;
 }
 .busqueda-boton:hover {
-  border: 1px solid #26075d;
+  border: 1px solid #0C71C3;
   background-color: #5e2aa3;
 }
 .mensaje {
@@ -309,7 +310,7 @@ header {
 .footer {
   width: 100%;
   height: 30vh;
-  background: linear-gradient(to right, #26075d, #450ea3, #26075d);
+  background: linear-gradient(to right, #0C71C3, #06298b, #0C71C3);
 
   display: flex;
   flex-direction: column;
@@ -388,7 +389,7 @@ header {
   padding: 20px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: #454e8f;
+  background-color: #0C71C3;
   border-radius: 10px;
   margin: 5% auto;
 }
@@ -423,7 +424,7 @@ header {
   padding: 20px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: #454e8f;
+  background-color: #0C71C3;
   border-radius: 10px;
   max-width:60%;
   margin: 5% auto;
@@ -447,7 +448,7 @@ header {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
   }
-  .busqueda-peli {
+  .busqueda-dat {
     margin: auto;
   }
   .info-container {

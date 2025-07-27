@@ -20,13 +20,12 @@ export function Header({enlaces}) {
     return <header>
         <section className='header-principal'>
             <button onClick={() => MenuAbrir()}> <img src={IconoMenu} alt='Abrir Menú'/></button>
-            <h1>TusPelis</h1>
+            <h1>Planifica tu Visita Guiada al Santuario de JGH - El Venerable</h1>
             <CambiarModo/>
         </section>
         <section className={menu === true ? 'menu abierto' : 'menu cerrado'}>
             <button onClick={() => MenuCerrar()}> <img src={IconoX} alt='Cerrar Menú'/> </button>
             <h3 onClick={()=>enlaces(1)}>Inicio</h3>
-            <h3 onClick={()=>enlaces(2)}>Buscar</h3>
             <h3 onClick={()=>enlaces(3)}>Explorar</h3>
         </section>
         {menu === true ? <div className='fondo'></div> : <></>}

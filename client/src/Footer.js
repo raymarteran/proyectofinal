@@ -8,8 +8,7 @@ import IconoInstagram from './media/iconos/instagram.svg';
 const Footer = () => {
  return (
     <footer className="footer">
-      <p className="footer-titulo">¡Forma Parte de TusPelis!</p>
-      <p className="footer-text">tuspelis@correoficticio.com</p>
+      <p className="footer-titulo">Jose Gregorio Hernández Santo De Todos Los Venezolanos</p>
       <div className='footer-redes'>
         <a href='https://twitter.com' target="_blank" rel="noreferrer"><img src={IconoTwitter} alt='Siguenos en Twitter' ></img></a>
         <a href='https://facebook.com' target="_blank" rel="noreferrer"><img src={IconoFacebook} alt='Siguenos en Facebook' ></img></a>

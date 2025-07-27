@@ -8,17 +8,17 @@ export function Renderizar({resultado, valor}) {
         return <p className="mensaje">¡Encuentra tus Películas Favoritas!</p>
     } else if (resultado.length > 0) {
         return <div className="busqueda">
-            {resultado.map((peli) => {
-                console.log('soy peli',peli);
+            {resultado.map((dat) => {
+                console.log('soy dat',dat);
                 return (
-                    <section key={peli.id} className="busqueda-peli">
-                        <img src={"https://image.tmdb.org/t/p/original/"+peli.poster_path} className="busqueda-poster"/>
-                        <h3> {peli.title} </h3>
+                    <section key={dat.id} className="busqueda-dat">
+                        <img src={"https://image.tmdb.org/t/p/original/"+dat.poster_path} className="busqueda-poster"/>
+                        <h3> {dat.title} </h3>
                         <div>
-                            <p> {peli.vote_average}★ </p>
-                            <p> {peli.release_date} </p>
+                            <p> {dat.vote_average}★ </p>
+                            <p> {dat.release_date} </p>
                         </div>
-                        <button className="busqueda-boton" parametro={peli.id} onClick={()=> detalle()}>¡VER!</button>
+                        <button className="busqueda-boton" parametro={dat.id} onClick={()=> detalle()}>¡VER!</button>
                     </section>
                 )
             })}

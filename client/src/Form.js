@@ -6,7 +6,6 @@ const ContactForm = () => {
     email: '',
     telefono: '',
     fecha: '',
-    importancia: '',
     pregunta: '',
  });
 
@@ -44,7 +43,7 @@ const ContactForm = () => {
 
  return (
     <form className="contact-form" onSubmit={handleSubmit} action="http://localhost:3000/contactos" method="post">
-      <h2>Contactanos</h2>
+      <h2 className='mb-4'>¡Bienvenido a tu visita Guiada!</h2>
       <input
         type="text"
         name="nombre"
@@ -76,20 +75,9 @@ const ContactForm = () => {
         onChange={handleChange}
         required
       />
-      <select
-        name="importancia"
-        value={form.importancia}
-        onChange={handleChange}
-        required
-      >
-        <option value="">Importancia de tu Pregunta</option>
-        <option value="Baja">Baja</option>
-        <option value="Media">Media</option>
-        <option value="Alta">Alta</option>
-      </select>
       <textarea
         name="pregunta"
-        placeholder="Haz tu Pregunta"
+        placeholder="Cuetanos que te gustaria hacer"
         value={form.pregunta}
         onChange={handleChange}
         required
@@ -100,3 +88,4 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
+
