@@ -19,3 +19,10 @@ Asignatura Frontend I
     <li>Iniciar el proyecto dentro de la carperta client con npm start</li>
     <li>Acceder a la aplicación a través de http://localhost:5000/</li>
 </ol>
+
+<h3>Pasos para ejecutar el backend:</h3>
+<ol>
+    <li>Instalar las dependencias dentro de la carpeta server con npm install</li>
+    <li>Iniciar el servidor dentro de la carpeta server con npm run server</li>
+    <li>Acceder a la API a través de http://localhost:3000/</li>
+</ol>
