@@ -8,7 +8,7 @@ const comentarioSchema = new mongoose.Schema( //en mongo el modelo es establecer
         descripcion: {
             type: String
         },
-        idpeli: {
+        iddat: {
             type: Number
         },
         calificacion: {
